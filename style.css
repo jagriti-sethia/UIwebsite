@@ -1,0 +1,863 @@
+.rect1{
+    background: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.menubtn{
+    color: white;
+}
+.buton{
+   
+
+
+border-radius: 20.5px;
+background: #E31E24;
+
+  }
+video {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays behind other content */
+   
+}
+
+
+nav {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+ }
+ nav img{
+    object-fit: contain;
+ }
+
+ .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1; /* Ensure the content is above the video */
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.welcome{
+color: #FFF;
+font-family: Cormorant;
+font-size: 128px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 10%;
+
+
+}
+.wel2{
+    margin: 0;
+    color: #FFF;
+font-family: Cormorant;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+
+}
+.btn2{
+    width: 240px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #E31E24;
+  margin: 35px;
+}
+/* rectangle2 starts*/
+.rectangle2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #3A3285;
+    justify-content: center;
+}
+.found1 {
+    font-family: var(--font-raleway);
+       text-align: center;
+      
+       padding-top: 98px;
+       color: #FFF;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 183.4%;
+   
+   }
+   
+   .found2 {
+      
+       color: #FFF;
+       text-align: center;
+       font-family: Raleway;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 183.4%;
+      
+   }
+   
+   .found3 {
+       
+       color: #FFF;
+       text-align: center;
+       font-family: Raleway;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 183.4%;
+      
+       margin-top: 3%;
+   }
+   
+   .found4 {
+       text-decoration: underline;
+       color: #fff;
+       padding-bottom: 82px;
+       text-align: center;
+   }
+/* rectangle2 ends */
+/* rectangle3 start */
+
+.bala-sirs-message {
+    color: #000;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.message-from-our {
+    color: #000;
+    font-family: Cormorant;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sri-balaji-university {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183.4%; /* 29.344px */
+    padding-bottom: 2%;
+}
+
+.we-are-proud {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183.4%; /* 29.344px */
+    padding-bottom: 2%;
+    
+  
+}
+
+.readmore {
+    text-decoration: underline;
+    color:    #000000;
+    
+}
+/* rectangle3 ends */
+/* rectangle4 starts */
+.rectangle4{
+  background: url(public/charming.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* height: 700px; */
+}
+.rectangle4row{
+    background-color: rgba(31, 31, 31, 0.77);
+}
+
+.matter1 {
+    padding-top: 152px;
+   
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 177.9%;
+    /* 28.464px */
+  }
+  
+  .matter2 {
+    padding-top: 152px;
+   
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 177.9%;
+    /* 32.022px */
+  }
+  
+  .matter3 {
+    padding-top: 152px;
+   
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 177.9%;
+    /* 32.022px */
+  }
+  
+  
+  .mba {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .mba1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .mba2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .pm-hrd {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .marketing-management {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+/* rectangle4 ends */
+/* rectangle5 starts here */
+.chiparea {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .chip {
+    display: flex;
+    padding: 2px 2px;
+    height: 79px;
+    font-size: 14px;
+    flex-shrink: 0;
+    /* width: 15%; */
+    flex: 1;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 31px 80px rgba(0, 0, 0, 0.1), 0 13px 33.42px rgba(0, 0, 0, 0.07), 0 6.9px 17.87px rgba(0, 0, 0, 0.06), 0 3.9px 10.02px rgba(0, 0, 0, 0.05), 0 2.1px 5.32px rgba(0, 0, 0, 0.04), 0 0.9px 2.21px rgba(0, 0, 0, 0.03);
+    align-items: flex-start;
+    margin: 1%;
+  
+  }
+  
+  .chip svg {
+    align-items: center;
+    margin: 10px 10px 0 25px;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+  }
+  
+  .chip p {
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    align-items: center;
+    
+  }
+  
+  .chip:hover {
+    background-color: #E31E24;
+  
+  }
+  
+  .chip:hover  svg{
+    fill: #fff;
+  }
+  
+  .chip:hover p{
+    color: #fff;
+  }
+/* rectangle5 ends here */
+/* rectangle6 starts here */
+.est{
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 183.4%; /* 33.012px */
+  }
+  .exc{
+    color: #000;
+font-family: Cormorant;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 117.6%; /* 75.264px */
+  }
+  .readmore {
+    text-decoration: underline;
+          color: #E31E24;
+          padding-top: 5%
+    ;}
+
+    .line1{
+        color: #E31E24;
+    font-family: Red Hat Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+      }
+      .line2 {
+        color: #E31E24;
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 38px;
+      }
+      .established{
+        padding-top: 5%;
+      }
+      .data{
+        padding-top: 6%;
+      }
+/* rectangle6 ends here */
+/* rectangle7 starts here */
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: space-evenly;
+    
+
+}
+
+.cont1 img{
+    width:150px;
+   height: 150px;
+   object-fit: contain;
+}
+/* rectangle7 ends here */
+/* rectangle8 starts here */
+.rectangle8{
+    background: linear-gradient(90deg, #3A3285 3.08%, #E31E24 98.72%);
+}
+.contact input{
+    background: rgba(255, 255, 255, 0.20); 
+    border: none;
+}
+.contact button{
+    background: white;
+    color: #AA182C ;
+}
+label{
+    color: #FFF;
+font-family: Raleway;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 155.6%; /* 20.228px */
+}
+.person7 p{
+    color: #FFF;
+    font-family: Cormorant;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.1%; /* 65.344px */
+   
+    
+}
+.journey7 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155.6%; /* 37.344px */
+    
+   
+}
+/* rectangle8 ends here */
+/* rectangle9 starts here */
+.testimonial-card {
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 5%;
+   
+}
+
+.testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+
+.testimonial-avatar img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.6%; /* 24.896px */
+    /* margin-bottom: 15px; */
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #555;
+}
+
+.testimonial-position {
+    color: #777;
+}
+.flexsec{
+    display: flex;
+
+}
+.coma{
+    left:0;
+    padding-top: 15px;
+display: flex;
+justify-content: flex-start;
+    color: #E31E24;
+font-family: Cormorant;
+font-size: 96px;
+font-style: normal;
+font-weight: 500;
+line-height: 5%; /* 98.976px */
+}
+.hear{
+    color: #000;
+font-family: Cormorant;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 103.1%; /* 65.984px */
+}
+/* rectangle9 ends here */
+/* rectangle10 starts here */
+.rectangle10{
+    
+    border-radius: 50% / 10% 10% 0 0; 
+    background: linear-gradient(180deg, #3A3285 43.06%, #0060AA 200%);
+    height: auto;
+   
+}
+.imagewali{
+    position: relative;
+    height: auto;
+}
+.image{
+    width: 473.464px;
+height: 473.464px;
+transform: rotate(-0.616deg);
+flex-shrink: 0;
+mix-blend-mode: overlay;
+}
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: white;
+    font-size: 24px;
+    font-weight: bold;
+    mix-blend-mode: overlay; */
+  }
+.stay1{
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.6%; /* 104.256px */
+   
+   
+}
+
+
+
+.latest1{
+    color: #FFF;
+text-align: center;
+font-family: Cormorant;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 108.6%; /* 39.096px */
+
+}
+
+.blueflex{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    text-align: left;
+    
+    
+    }
+    .rightwala{
+        display: flex;
+        flex-direction:column ;
+        margin-right: 5%;
+        
+    }
+    .leftwala{
+        display: flex;
+        flex-direction:column ;
+    }
+    .uper p{
+        color: #FFF;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 113.3%; /* 18.128px */
+        letter-spacing: 1.6px;
+    }
+    .niche p{
+        color: #FFF;
+        font-family: Red Hat Display;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 113.3%; /* 27.192px */
+        width: 184px;
+    }
+    .uper2 p{
+        color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.3%; /* 18.128px */
+    letter-spacing: 1.6px;
+    }
+    .niche2 p{
+        color: #FFF;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 113.3%; /* 36.256px */
+    width: 334px;
+    }
+    .last{
+        
+            display: flex;
+            flex-direction:row ;
+            padding-bottom: 5%;
+            padding-left: 2%;
+            border-bottom: 2px dotted rgb(246, 246, 247);
+            
+        
+    }
+    .first{
+        display: flex;
+        flex-direction:row ;
+        padding-bottom: 5%;
+        padding-left: 2%;
+        border-bottom: 2px dotted rgb(246, 246, 247);
+        
+    
+    }
+    .event{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+/* rectangle 10 ends here */
+/* rectangle11 start */
+.rectangle11{
+   
+    background-image:
+    linear-gradient(180deg, #264191 0%, rgba(38, 65, 145, 0.00) 100%),
+    url('public/explo.png');
+    
+    height: 700px;
+    background-size: cover;
+    color: white;
+    padding-bottom: 5%;
+    
+}
+.extext p{
+    color: white;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.6%; /* 104.256px */
+    padding-top: 20%;
+    
+}
+.btng{
+   
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #f3050d;
+  z-index: 3;
+}
+/* rectangle11 end */
+/* rectangle12 starts */
+.rectangle12{
+    background-color: white;
+    border-radius:  10% 10% 0 0; 
+    margin-top: -50px;
+}
+.grad{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
+.p131{
+    color: #000;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.861%; /* 56.094px */
+    text-align: left;
+}
+.p132{
+    color: #3A3285;
+    font-family: Cormorant;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    /* margin-top: -50px; */
+}
+.p133 button{
+    width: 240px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #E31E24;
+    /* margin-top: -50px; */
+}
+.join {
+    padding-top: 25%;
+}
+/* rectangle12 ends */
+/* rectangle13 start */
+.rectangle13{
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 20%,                                                                 
+        #3A3285 20%,
+        #3A3285 100%
+    );
+
+margin-bottom: 0 !important;
+}
+.redbox{
+    background: #E31E24;
+}
+.redbox img{
+    width: 195.296px;
+height: 195.296px;
+transform: rotate(-0.616deg);
+flex-shrink: 0;
+
+}
+.red1{
+    color: #FFF;
+font-family: Cormorant;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.red2{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 113.3%; /* 20.394px */
+}
+.red3{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 113.3%; /* 20.394px */
+}
+.red4{
+
+flex-shrink: 0;
+color: #FFF;
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 163.3%; /* 29.394px */
+}
+.addmision{
+    padding-top: 40%;
+}
+.aboutus{
+    padding-top: 40%;
+}
+.righta p{
+    
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.3%; /* 20.394px */
+}
+.lefta p{
+    
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.3%; /* 20.394px */
+}
+.addm{
+    /* width: 100px; */
+    color: #FFF;
+font-family: Cormorant;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 116.861%; /* 37.396px */
+text-decoration: underline;
+}
+.redbox{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+/* rectangle13 end */
+/* rectangle14 start */
+.rectangle14{
+    background: #19163A;
+}
+.footer button{
+       
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  background: #3A3285;
+}
+.copyright{
+    color: white;
+}
+/* rectangle14 ends */
